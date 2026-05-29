@@ -1,0 +1,29 @@
+form{
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: lightgray;
+    display: table;
+    width: 100%;
+
+}
+input {
+    display: block;
+    width: 100%;
+    margin-bottom:20px ;
+    height: 30px;
+    font-size: 22px;
+}
+.question{
+    color: brown;
+    font-size: 22px;
+    margin: 10px;
+
+}
+.options input{
+
+    display: inline;
+    width: fit-content;
+    height: 10ox;
+
+}
