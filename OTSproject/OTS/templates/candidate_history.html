@@ -8,7 +8,7 @@
 
 {%endblock %}
 {% block content%}
-<h1> {{request.session.name}}, Your Score</h1>
+<h1> Your Total History, {{request.session.name}}</h1>
 <p>Hi <span class="special">{{candidate.name}}</span>,
  you have attempted in total <span class="special">{{candidate.test_attempted}}</span>  tests and you have scored <span class="special">{{candidate.points}}</span> on the scale of 10 </p>
 <p>Score= {{candidate.points}}/10</p>

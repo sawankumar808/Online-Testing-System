@@ -10,7 +10,7 @@
 }
 .top div.sitename{
     display: inline-block;
-    color: #F64C72;
+    color: #281a1d;
     position:relative;
     top:-10px;
 }
@@ -18,7 +18,7 @@
     float:right;
 }
 .top div.menu{
-    color:#456705;
+    color:#1d66a6;
     display:inline-block;
     min-width:50p;
     margin-right:20px;
@@ -45,7 +45,7 @@ table tr:nth-child(even){
     height: 30px;
 }
 table tr:first-child(even){
-    background-color: #006836;
+    background-color: #1d0068;
 }
 .special{
     color:lightcoral;

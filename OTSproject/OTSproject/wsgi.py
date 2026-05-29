@@ -14,3 +14,5 @@ from django.core.wsgi import get_wsgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'OTSproject.settings')
 
 application = get_wsgi_application()
+# Pehle se jo code hai use rehne do, sabse neeche yeh likh do:
+app = application
