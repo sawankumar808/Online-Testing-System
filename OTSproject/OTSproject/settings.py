@@ -127,3 +127,11 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+MIDDLEWARE = [
+    'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',  # ← 2nd line
+    ...
+]
+
+import os
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
